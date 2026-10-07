@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 3 143 121" role="img" aria-label="Ursulão Pizzas">
+<defs><mask id="mr"><rect x="0" y="0" width="160" height="130" fill="#fff"/><circle cx="75" cy="69" r="49" fill="#000"/></mask></defs>
+<g fill="none" stroke="#c1272d" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+<g mask="url(#mr)"><circle cx="30" cy="27.5" r="20"/><circle cx="121" cy="27.5" r="20"/></g>
+<circle cx="75" cy="69" r="49"/>
+<path d="M47,54 Q56,63 66,54"/>
+<path d="M84,54 Q94,63 103,54"/>
+<path d="M42,68 L57,81 M38.5,71 L44,71 M44.5,64 L44.5,69.5"/>
+<path d="M108,68 L93,81 M111.5,71 L106,71 M105.5,64 L105.5,69.5"/>
+<circle cx="74.5" cy="84" r="20"/>
+<circle cx="74.5" cy="76.5" r="9.5"/>
+<path d="M59.5,86 A15,15 0 0 0 89.5,86"/>
+<path d="M63.5,90 L74.5,100.5 L85.5,90"/>
+</g></svg>

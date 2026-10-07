@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ursulão Pizzas | Desde 1988 na Vila das Belezas</title>
+  <meta name="description" content="Ursulão Pizzas — pizzaria tradicional desde 1988 na Vila das Belezas, São Paulo. Mais de 80 sabores, broto e grande, calzone e entrega na região." />
+  <meta name="theme-color" content="#c1272d" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Ursulão Pizzas - início">
+        <img src="assets/img/logo-urso.svg" alt="" width="52" height="44" class="brand__logo" />
+        <span class="brand__text">
+          <strong>Ursulão</strong>
+          <small>Pizzas · desde 1988</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#horarios">Horários</a>
+        <a href="#entrega">Entrega</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="tel:+551155117173" class="btn btn--primary header__cta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        Pedir agora
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <span class="status-pill" id="statusPill">
+            <span class="dot"></span><span id="statusText">Verificando horário…</span>
+          </span>
+          <h1>A pizza do bairro,<br /><em>feita do jeito certo</em> desde 1988.</h1>
+          <p class="lead">
+            Mais de 80 sabores salgados e doces, massa tradicional, broto ou grande —
+            direto do forno da Vila das Belezas para a sua mesa.
+          </p>
+          <div class="hero__actions">
+            <a href="#cardapio" class="btn btn--primary btn--lg">Ver cardápio</a>
+            <a href="tel:+551155117173" class="btn btn--ghost btn--lg">(11) 5511-7173</a>
+            <a href="https://wa.me/551155117173?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.75 2.75 0 0 0-.86 2.04 4.8 4.8 0 0 0 1 2.53 10.9 10.9 0 0 0 4.2 3.7c1.56.68 2.17.73 2.95.62.48-.07 1.45-.6 1.66-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.29z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong>1988</strong><span>tradição</span></li>
+            <li><strong id="totalSabores">80+</strong><span>sabores</span></li>
+            <li><strong>21</strong><span>bairros atendidos</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__plate">
+            <img src="assets/img/pizza-ursulao.svg" alt="Ilustração de pizza com tomate, presunto, bacon e manjericão" class="hero__pizza" />
+          </div>
+          <img src="assets/img/deco-manjericao.svg" alt="" class="hero__deco" aria-hidden="true" />
+          <div class="hero__badge">
+            <img src="assets/img/logo-urso-branco.svg" alt="" width="46" height="39" />
+            <strong>Ursulão</strong>
+            <span>o sabor da casa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DESTAQUES ================= -->
+    <section class="section highlights">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Favoritas da casa</span>
+          <h2>Comece por aqui</h2>
+        </div>
+        <div class="highlights__grid">
+          <article class="hl-card reveal">
+            <img src="assets/img/pizza-ursulao.svg" alt="" loading="lazy" />
+            <div>
+              <h3>Ursulão</h3>
+              <p>Presunto, palmito, pimenta, mussarela, tomate, bacon e parmesão.</p>
+              <span class="price">R$ 102 <small>grande</small></span>
+            </div>
+          </article>
+          <article class="hl-card reveal">
+            <img src="assets/img/pizza-pepperone.svg" alt="" loading="lazy" />
+            <div>
+              <h3>Pepperone 2</h3>
+              <p>Mussarela de búfala, salame pepperone, champignon e parmesão.</p>
+              <span class="price">R$ 123 <small>grande</small></span>
+            </div>
+          </article>
+          <article class="hl-card reveal">
+            <img src="assets/img/pizza-marguerita.svg" alt="" loading="lazy" />
+            <div>
+              <h3>Marguerita</h3>
+              <p>Mussarela, molho de tomate e manjericão fresco.</p>
+              <span class="price">R$ 88 <small>grande</small></span>
+            </div>
+          </article>
+          <article class="hl-card reveal">
+            <img src="assets/img/pizza-doce.svg" alt="" loading="lazy" />
+            <div>
+              <h3>Moranguinho</h3>
+              <p>Chocolate ao leite e cobertura de morango.</p>
+              <span class="price">R$ 74 <small>grande</small></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARDÁPIO ================= -->
+    <section class="section menu" id="cardapio">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Cardápio</span>
+          <h2>Escolha o seu sabor</h2>
+          <p>Cada sabor mostra o preço da <strong>Grande</strong> (8 pedaços) e da <strong>Broto</strong> (4 pedaços). Todas as pizzas salgadas acompanham azeitonas.</p>
+        </div>
+
+        <div class="menu__controls">
+          <div class="tabs" role="tablist" aria-label="Categoria">
+            <button class="tab is-active" role="tab" aria-selected="true" data-cat="salgadas">Salgadas</button>
+            <button class="tab" role="tab" aria-selected="false" data-cat="doces">Doces</button>
+          </div>
+
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.4-5.4-5.39A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"/></svg>
+            <input type="search" id="busca" placeholder="Buscar sabor ou ingrediente (ex: catupiry)" autocomplete="off" />
+          </label>
+        </div>
+
+        <p class="menu__count" id="menuCount" aria-live="polite"></p>
+        <div class="menu__grid" id="menuGrid"></div>
+        <p class="menu__empty" id="menuEmpty" hidden>Nenhum sabor encontrado. Tente outro ingrediente 🙂</p>
+
+        <div class="extras">
+          <div class="extra reveal">
+            <img src="assets/img/calzone.svg" alt="" loading="lazy" />
+            <div>
+              <h3>Calzone</h3>
+              <p>Qualquer sabor do cardápio em versão fechada, no tamanho grande.</p>
+            </div>
+          </div>
+          <div class="extra reveal">
+            <div class="extra__icon">+</div>
+            <div>
+              <h3>Borda recheada <span class="price">R$ 30</span></h3>
+              <p>Sob consulta — peça ao fazer o seu pedido.</p>
+            </div>
+          </div>
+          <div class="extra reveal">
+            <div class="extra__icon">🍷</div>
+            <div>
+              <h3>Bebidas</h3>
+              <p>Vinhos, sucos, refrigerantes e cervejas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HORÁRIOS ================= -->
+    <section class="section hours" id="horarios">
+      <img src="assets/img/logo-urso-branco.svg" alt="" class="hours__bear" aria-hidden="true" />
+      <div class="container hours__inner">
+        <div class="reveal">
+          <span class="eyebrow eyebrow--light">Horário de funcionamento</span>
+          <h2>Forno aceso todas as noites<br />(menos segunda)</h2>
+          <p class="hours__note">⚠️ Fechado todo <strong>último domingo de cada mês</strong>.</p>
+        </div>
+        <ul class="hours__list reveal" id="hoursList">
+          <li data-days="2,3,4,0"><span>Terça a quinta, domingo e feriados</span><strong>18h – 23h</strong></li>
+          <li data-days="5,6"><span>Sexta, sábado e véspera de feriado</span><strong>18h – 24h</strong></li>
+          <li data-days="1" class="is-closed"><span>Segunda-feira</span><strong>Fechado</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= ENTREGA ================= -->
+    <section class="section delivery" id="entrega">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Delivery</span>
+          <h2>Entregamos na sua região</h2>
+          <p>Confira os bairros atendidos. Não achou o seu? Ligue e pergunte!</p>
+        </div>
+        <ul class="chips reveal">
+          <li>Vila Andrade</li><li>Morumbi Sul</li><li>Capão Redondo</li><li>Pq. Maria Helena</li>
+          <li>Condomínio Ipê</li><li>Chácara Santo Antônio</li><li>Santo Amaro</li><li>Campo Limpo</li>
+          <li>Vila das Belezas</li><li>Jd. São Luiz</li><li>Pq. Santo Antônio</li><li>Jd. Casa Branca</li>
+          <li>Vila Prel</li><li>Vila Cruzeiro</li><li>Vila Elvira</li><li>Jd. Internacional</li>
+          <li>Jd. Dom Bosco</li><li>Campo Novo do Sul</li><li>Panamby</li><li>Pullman II</li>
+          <li>Manoel Moreira de Sá</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section class="section contact" id="contato">
+      <div class="container contact__inner">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Contato & localização</span>
+          <h2>Peça pelo telefone ou venha nos visitar</h2>
+
+          <div class="contact__cards">
+            <a class="c-card" href="tel:+551155117173">
+              <span class="c-card__icon">📞</span>
+              <span><small>Telefone</small><strong>(11) 5511-7173</strong></span>
+            </a>
+            <a class="c-card c-card--whatsapp" href="https://wa.me/551155117173?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener">
+              <span class="c-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.75 2.75 0 0 0-.86 2.04 4.8 4.8 0 0 0 1 2.53 10.9 10.9 0 0 0 4.2 3.7c1.56.68 2.17.73 2.95.62.48-.07 1.45-.6 1.66-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.29z"/></svg>
+              </span>
+              <span><small>WhatsApp</small><strong>(11) 5511-7173</strong></span>
+            </a>
+            <a class="c-card" href="tel:+551155116551">
+              <span class="c-card__icon">📞</span>
+              <span><small>Telefone</small><strong>(11) 5511-6551</strong></span>
+            </a>
+            <a class="c-card" href="https://www.google.com/maps/search/?api=1&query=Rua+Doutor+Andr%C3%A9+Brenha+Ribeiro%2C+32%2C+Vila+das+Belezas%2C+S%C3%A3o+Paulo+-+SP" target="_blank" rel="noopener">
+              <span class="c-card__icon">📍</span>
+              <span><small>Endereço</small><strong>R. Dr. André Brenha Ribeiro, 32</strong><em>Vila das Belezas · São Paulo – SP</em></span>
+            </a>
+          </div>
+
+          <div class="socials">
+            <a href="https://www.instagram.com/ursulaopizzas/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.06C4.3 2.2 2.2 4.3 2.06 7.9 2 9 2 9.3 2 12s0 3 .06 4.1c.16 3.6 2.24 5.7 5.84 5.84C9 22 9.3 22 12 22s3 0 4.1-.06c3.6-.16 5.7-2.24 5.84-5.84C22 15 22 14.7 22 12s0-3-.06-4.1C21.8 4.3 19.7 2.2 16.1 2.06 15 2 14.7 2 12 2zm0 1.8c2.67 0 2.99 0 4.04.06 2.7.12 3.97 1.4 4.1 4.1.05 1.05.06 1.37.06 4.04s0 2.99-.06 4.04c-.12 2.7-1.38 3.98-4.1 4.1-1.05.05-1.37.06-4.04.06s-2.99 0-4.04-.06c-2.72-.12-3.98-1.4-4.1-4.1C3.8 14.99 3.8 14.67 3.8 12s0-2.99.06-4.04c.12-2.7 1.39-3.98 4.1-4.1C9.01 3.8 9.33 3.8 12 3.8z"/></svg>
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/ursulao.u.pizzas" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.25-1.5 1.56-1.5h1.66V4.43A22 22 0 0 0 14.3 4.3c-2.4 0-4.05 1.47-4.05 4.16v2.34H7.5V14h2.75v8z"/></svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__map reveal">
+          <iframe
+            title="Mapa — Ursulão Pizzas"
+            src="https://www.google.com/maps?q=Rua+Doutor+Andr%C3%A9+Brenha+Ribeiro,+32,+Vila+das+Belezas,+S%C3%A3o+Paulo&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="brand brand--footer">
+        <img src="assets/img/logo-urso-branco.svg" alt="" width="52" height="44" class="brand__logo" />
+        <span class="brand__text"><strong>Ursulão Pizzas</strong><small>Desde 1988</small></span>
+      </div>
+      <p>R. Dr. André Brenha Ribeiro, 32 – Vila das Belezas – São Paulo/SP</p>
+      <p>&copy; <span id="ano"></span> Ursulão Pizzas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante (mobile) -->
+  <a href="https://wa.me/551155117173?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido." class="fab fab--whatsapp" target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.75 2.75 0 0 0-.86 2.04 4.8 4.8 0 0 0 1 2.53 10.9 10.9 0 0 0 4.2 3.7c1.56.68 2.17.73 2.95.62.48-.07 1.45-.6 1.66-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.29z"/></svg>
+    <span>Pedir</span>
+  </a>
+
+  <script src="js/cardapio.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

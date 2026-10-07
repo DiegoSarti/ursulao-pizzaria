@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+<g transform="translate(60 60) rotate(-25)"><path d="M-50,0 Q0,-40 50,0 Q0,40 -50,0Z" fill="#2f7d32"/><path d="M-46,0 L46,0" stroke="#1b5e20" stroke-width="3"/></g>
+<g transform="translate(150 70)"><circle r="34" fill="#e53935"/><circle r="26" fill="#ef5350"/><path d="M-8,-34 L0,-26 L8,-34 L4,-42 L0,-36 L-4,-42Z" fill="#2e7d32"/></g>
+</svg>
